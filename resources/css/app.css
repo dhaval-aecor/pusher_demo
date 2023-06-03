@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+table.table.user-listing-table {
+    width: 100%;
+}
+
+table.table.user-listing-table tr, table.table.user-listing-table tr td, table.table.user-listing-table tr th {
+    border: 1px solid #d0d0d0;
+    padding: 10px 15px;
+    text-align: center;
+}
+.user_counter {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.user_counter span.userCountLable {font-weight: 600;}
+
+.user_counter span.userCount {
+    padding-left: 10px;
+}
